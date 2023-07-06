@@ -1,0 +1,42 @@
+#contact {
+  padding: 80px 0;
+  background-color: rgb(30 41 59);
+}
+.contact {
+  text-align: center !important;
+}
+
+.icon-contact {
+  justify-content: center;
+}
+
+.icon-contact ul li {
+  display: inline;
+  list-style: none;
+}
+.icon-contact ul li svg {
+  margin-top: 30px !important;
+  margin: 10px;
+  width: 40px !important;
+  border: 1px solid #0f172a;
+  padding: 30px;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.icon-contact ul li svg:hover {
+  border: 1px solid aqua;
+  box-shadow: 0px 14px 56px -11px rgb(56 189 248);
+}
+.flex-container {
+  margin-top: 40px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.line {
+  background-color: aqua;
+  height: 5px;
+  width: 4em;
+  border-radius: 5px;
+  margin-top: 10px !important;
+}
